@@ -15,7 +15,7 @@
                 "border.disabled": "#92A9FF0E",
                 "elevated_surface.background": "#151A23",
                 "surface.background": "#151A23",
-                "background": "#181E28",
+                "background": "#151922",
                 "element.background": "#10151D",
                 "element.hover": "#92A9FF09",
                 "element.active": "#92A9FF0D",
@@ -41,7 +41,7 @@
                 "title_bar.background": "#10151D",
                 "toolbar.background": "#10151D",
                 "tab_bar.background": "#10151D",
-                "tab.inactive_background": "#181E28",
+                "tab.inactive_background": "#151922",
                 "tab.active_background": "#10151D",
                 "search.match_background": "#83431499",
                 "panel.background": "#10151D",
@@ -53,8 +53,8 @@
                 "scrollbar.track.background": "#10151D",
                 "scrollbar.track.border": "#92A9FF05",
                 "editor.foreground": "#C5D8DF",
-                "editor.background": "#181E28",
-                "editor.gutter.background": "#181E28",
+                "editor.background": "#151922",
+                "editor.gutter.background": "#151922",
                 "editor.subheader.background": "#10151D",
                 "editor.active_line.background": "#1F2939",
                 "editor.highlighted_line.background": null,
@@ -115,7 +115,7 @@
                 "players": [
                     {
                         "cursor": "#92A9FF",
-                        "selection": "#92A9FF20",
+                        "selection": "#92A9FF18",
                         "background": null
                     }
                 ],
