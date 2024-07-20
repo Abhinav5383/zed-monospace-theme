@@ -1,6 +1,6 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-    "name": "Monospace",
+    "name": "monospace-theme",
     "author": "Abhinav5383",
     "themes": [
         {
@@ -27,8 +27,8 @@
                 "ghost_element.active": "#92A9FF0D",
                 "ghost_element.selected": "#92A9FF0A",
                 "ghost_element.disabled": "#00000000",
-                "text": "#C5C8CF",
-                "text.muted": "#93A2B5",
+                "text": "#D5D8DF",
+                "text.muted": "#A3B2C5",
                 "text.placeholder": "#536275",
                 "text.disabled": "#536275",
                 "text.accent": "#92A9FF",
