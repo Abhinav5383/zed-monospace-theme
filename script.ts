@@ -13,7 +13,7 @@ function generateTheme(colors: ThemeColors) {
 		"elevated_surface.background": colors.bg_panel,
 		"surface.background": colors.bg_panel,
 		background: colors.bg_panel,
-		"element.background": colors.bg_panel,
+		"element.background": colors.bg_panel_active,
 		"element.hover": colors.bg_panel_hover,
 		"element.active": colors.bg_panel_active,
 		"element.selected": colors.bg_panel_selected,
@@ -68,6 +68,8 @@ function generateTheme(colors: ThemeColors) {
 		// "editor.wrap_guide": "#c8ccd40d", // no idea what it does
 		// "editor.active_wrap_guide": "#c8ccd41a",
 		"editor.document_highlight.read_background": colors.editor_similar_token_bg,
+		"editor.document_highlight.bracket_background":
+			colors.editor_wrapping_brackets_bg,
 		// "editor.document_highlight.write_background": "#555a6366",
 
 		"terminal.background": colors.terminal.background,
@@ -101,8 +103,8 @@ function generateTheme(colors: ThemeColors) {
 
 		"link_text.hover": colors.text_accent,
 		"version_control.added": colors.vcs_added_bg,
-		"version_control.modified": "#d3b020ff",
-		"version_control.deleted": "#e06c76ff",
+		"version_control.modified": colors.vcs_modified_bg,
+		"version_control.deleted": colors.vcs_deleted_bg,
 
 		conflict: colors.conflict_fg,
 		"conflict.background": colors.bg_panel,
@@ -666,5 +668,5 @@ const theme = {
 	],
 };
 
-// @ts-ignore
+// @ts-expect-error
 await Bun.file("./themes/monospace.json").write(JSON.stringify(theme, null, 4));
