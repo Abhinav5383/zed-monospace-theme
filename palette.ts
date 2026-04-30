@@ -9,7 +9,7 @@ export const DarkTheme = {
 	bg_search_match: "#83431466",
 
 	text: "#d9dfe7", // the main text color
-	text_muted: "#a4afbd",
+	text_muted: "#d9dfe7",
 	text_disabled: "#738295",
 	text_accent: "#b895fd",
 
